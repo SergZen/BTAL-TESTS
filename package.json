@@ -1,0 +1,17 @@
+{
+  "name": "btal-tests",
+  "version": "1.0.0",
+  "description": "Tests for BTAL token, crowdsale and exchange",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.3.0",
+    "chai": "^4.2.0",
+    "ganache-cli": "^6.7.0",
+    "openzeppelin-test-helpers": "^0.4.3",
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "SergZen",
+  "license": "ISC"
+}
