@@ -1,4 +1,4 @@
-# BTL tests
+# BTAL tests
 
 How install truffle:
 
