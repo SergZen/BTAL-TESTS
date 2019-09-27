@@ -1260,7 +1260,7 @@ contract('Crowdsale', function (accounts) {
   }); 
   
   describe('decimals', function () {
-    it('has a ETH price', async function () {
+    it('has a ETH price decimals', async function () {
       expect(await crowdsale.currentETHPriceDecimals()).to.be.bignumber.equal(decimals);
     });
 

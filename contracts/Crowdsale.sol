@@ -632,6 +632,7 @@ contract Crowdsale is ReentrancyGuard, WhitelistedRole, EnlistedRole {
      * @param newExchange new address.
      */
     function setExchangeAddr(address payable newExchange) external onlyAdmin {
+        require(newExchange != address(0), "New parameter value is the zero address");
         require(isContract(newExchange), "Exchange is not a contract");
 
         _exchangeAddr = newExchange;
